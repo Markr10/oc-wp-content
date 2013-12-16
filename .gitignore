@@ -1,1 +1,17 @@
+# OS X
 .DS_Store
+
+# WordPress - wp-content
+uploads/
+blogs.dir/
+upgrade/
+backup-db/
+advanced-cache.php
+wp-cache-config.php
+cache/
+backups/
+
+# WordPress - parts
+sitemap.xml
+sitemap.xml.gz
+*.log
