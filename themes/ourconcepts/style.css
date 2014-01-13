@@ -131,7 +131,7 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #00468B;
+	color: #ac0404;
 	outline: 0;
 }
 
@@ -591,13 +591,13 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-	background: #e05d22; /* Old browsers */
-	background: -webkit-linear-gradient(top, #e05d22 0%, #d94412 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #e05d22 0%, #d94412 100%); /* W3C */
+	background: #FFFFFF; /* Old browsers */
+	background: -webkit-linear-gradient(top, #222222 0%, #5D478B 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #222222 0%, #5D478B 100%); /* W3C */
 	border: none;
 	border-bottom: 3px solid #b93207;
 	border-radius: 2px;
-	color: #fff;
+	color: #141212;
 	display: inline-block;
 	padding: 11px 24px 10px;
 	text-decoration: none;
@@ -1059,11 +1059,11 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-title a {
-	color: #141412;
+	color: #00468B;
 }
 
 .entry-title a:hover {
-	color: #ea9629;
+	color: #00468B;
 }
 
 
@@ -1078,11 +1078,11 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-meta a {
-	color: #bc360a;
+	color: #00468B;
 }
 
 .entry-meta a:hover {
-	color: #bc360a;
+	color: #00468B;
 }
 
 .entry-meta > span {
@@ -1156,12 +1156,12 @@ ul.nav-menu li:hover > ul,
 
 .entry-content a,
 .comment-content a {
-	color: #bc360a;
+	color: #141212;
 }
 
 .entry-content a:hover,
 .comment-content a:hover {
-	color: #ea9629;
+	color: #00468B;
 }
 
 .entry-content blockquote {
@@ -1566,7 +1566,7 @@ footer.entry-meta {
 }
 
 .format-link .entry-title a {
-	color: #bc360a;
+	color: #141212;
 }
 
 .format-link div.entry-meta {
@@ -1888,11 +1888,11 @@ footer.entry-meta {
 }
 
 .navigation a {
-	color: #bc360a;
+	color: #141212;
 }
 
 .navigation a:hover {
-	color: #ea9629;
+	color: #141212;
 	text-decoration: none;
 }
 
@@ -1944,7 +1944,7 @@ footer.entry-meta {
 }
 
 .paging-navigation a:hover .meta-nav {
-	background-color: #ea9629;
+	background-color: #141212;
 	text-decoration: none;
 }
 
@@ -2203,7 +2203,7 @@ footer.entry-meta {
 .comment-author .url,
 .comment-reply-link,
 .comment-reply-login {
-	color: #bc360a;
+	color: #141212;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
@@ -2252,7 +2252,7 @@ footer.entry-meta {
 }
 
 .comment-meta a:hover {
-	color: #ea9629;
+	color: #141212;
 }
 
 .comment-metadata {
@@ -2486,11 +2486,11 @@ footer.entry-meta {
 }
 
 .widget a {
-	color: #bc360a;
+	color: #141212;
 }
 
 .widget a:hover {
-	color: #ea9629;
+	color: #141212;
 }
 
 /* Search widget */
