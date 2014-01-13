@@ -1,0 +1,22 @@
+#agenda
+{
+    margin-top:100px;
+    width:40px;
+    height:300px;
+    float:right;
+    background-color:rgba(0, 70, 139, 0.5);
+    color:#ffffff;
+}
+
+#agendaHeader
+{
+    width:250px;
+    height:40px;
+    float:left;
+}
+
+.agendaItem
+{
+    width:250px;
+    text-align:left;
+}
