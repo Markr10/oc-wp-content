@@ -16,12 +16,7 @@
 
 get_header(); ?>
 
-<style>
-	#masthead{
-		height: 1000px;
-		
-	}
-</style>
+
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">

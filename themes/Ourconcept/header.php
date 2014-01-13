@@ -33,25 +33,27 @@
 <body <?php body_class(); ?>>
 
 		<div id="navbar" class="navbar">
+				
+				
+				
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+					<!-- Logo -->
+					<a href="<?php echo get_bloginfo('url'); ?>">
+						<img class='header-logo' src='<?php echo get_bloginfo('template_url') ?>/images/MyConceptLogo.png'>
+					</a>
 					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+					
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'menu_container','menu_class' => 'nav-menu' ) ); ?>
+					
 					<?php //get_search_form(); ?>
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
 		
-<!-- 		Header image -->
-		<img src='<?php header_image(); ?>' style='width: 100%; margin-top: 40px;position:fixed; z-index: 5;'/>
+		<!--  Header image -->
+		<img class='headerImageFixed' src='<?php header_image(); ?>' />
+		<img class='headerImage' src='<?php header_image(); ?>'/>
 
-	<div id="page" class="hfeed site" style='z-index:999; top: 500px; background:white;position:relative;'>
-	
-		
-		
-					
-			
+	<div id="page" class="hfeed site">
 
-			
-	
-
-		<div id="main" class="site-main">
+	<div id="main" class="site-main">

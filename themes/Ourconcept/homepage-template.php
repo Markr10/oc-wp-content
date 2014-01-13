@@ -6,7 +6,11 @@
 */
 
 get_header(); ?>
-
+<style>
+	.headerImage{
+		height: auto;
+	}
+</style>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 		<?php if ( have_posts() ) : ?>
