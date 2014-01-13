@@ -26,7 +26,7 @@ function twentythirteen_custom_header_setup() {
 	$args = array(
 		// Text color and image (empty to use none).
 		'default-text-color'     => '220e10',
-		'default-image'          => '%s/images/headers/circle.png',
+		'default-image'          => '%s/images/headers/cropped-headerimage.jpg',
 
 		// Set height and width, with a maximum value for the width.
 		'height'                 => 1080,
@@ -45,20 +45,10 @@ function twentythirteen_custom_header_setup() {
 	 * %s is a placeholder for the theme template directory URI.
 	 */
 	register_default_headers( array(
-		'circle' => array(
-			'url'           => '%s/images/headers/circle.png',
-			'thumbnail_url' => '%s/images/headers/circle-thumbnail.png',
-			'description'   => _x( 'Circle', 'header image description', 'twentythirteen' )
-		),
-		'diamond' => array(
-			'url'           => '%s/images/headers/diamond.png',
-			'thumbnail_url' => '%s/images/headers/diamond-thumbnail.png',
-			'description'   => _x( 'Diamond', 'header image description', 'twentythirteen' )
-		),
-		'star' => array(
-			'url'           => '%s/images/headers/star.png',
-			'thumbnail_url' => '%s/images/headers/star-thumbnail.png',
-			'description'   => _x( 'Star', 'header image description', 'twentythirteen' )
+		'headerimage' => array(
+			'url'           => '%s/images/headers/cropped-headerimage.jpg',
+			'thumbnail_url' => '%s/images/headers/cropped-headerimage-150x150.jpg',
+			'description'   => _x( 'Header image', 'header image description', 'twentythirteen' )
 		),
 	) );
 }
