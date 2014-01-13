@@ -71,7 +71,9 @@ function twentythirteen_setup() {
 	 * replace to change 'twentythirteen' to the name of your theme in all
 	 * template files.
 	 */
-	load_theme_textdomain( 'Ourconcept', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'twentythirteen', get_template_directory() . '/languages' );
+        load_theme_textdomain( 'ourconcepts', get_template_directory() . '/languages' );
+
 
 	/*
 	 * This theme styles the visual editor to resemble the theme style,
@@ -248,6 +250,16 @@ function twentythirteen_widgets_init() {
 		'name'          => __( 'Secondary Widget Area', 'twentythirteen' ),
 		'id'            => 'sidebar-2',
 		'description'   => __( 'Appears on posts and pages in the sidebar.', 'twentythirteen' ),
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+        
+        register_sidebar( array(
+		'name'          => __( 'Agenda Widget Area', 'ourconcepts' ),
+		'id'            => 'sidebar-agenda',
+		'description'   => __( 'Appears in the agenda area. Only meant for the Events List.', 'ourconcepts' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h3 class="widget-title">',
