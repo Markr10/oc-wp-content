@@ -237,12 +237,12 @@ sub {
  */
 
 a {
-	color: #ca3c08;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #ac0404;
+	color: #FFFFFF;
 }
 
 a:focus {
@@ -251,7 +251,7 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #ea9629;
+	color: #FFFFFF;
 	outline: 0;
 }
 
@@ -434,7 +434,7 @@ img {
 }
 
 .post-format-gallery a {
-	color: #722d19;
+	color: #FFFFFF;
 }
 
 /* Image: same as Standard/Defaults */
