@@ -23,7 +23,7 @@
  *
  */
 ?>
-<li class="tribe-events-list-widget-events <?php tribe_events_event_classes()?>">
+<li class="agendaItem tribe-events-list-widget-events <?php tribe_events_event_classes()?>">
 	
     <div style="border: 1px solid white">
         <h4 class="entry-title summary">

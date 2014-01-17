@@ -1,11 +1,17 @@
 #agenda
 {
     margin-top:100px;
-    width:40px;
+    width:250px;
     height:300px;
     float:right;
     background-color:rgba(0, 70, 139, 0.5);
     color:#ffffff;
+}
+
+#agenda ol
+{
+    margin: 0px;
+    padding: 0px;
 }
 
 #agendaHeader

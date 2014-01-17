@@ -7,6 +7,7 @@
 
 get_header(); ?>
 <style>
+        @import url("<?php echo get_template_directory_uri(); ?>/css/agenda.css");
 	.headerImage{
 		height: auto;
 	}
