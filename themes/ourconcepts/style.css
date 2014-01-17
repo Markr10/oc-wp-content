@@ -952,7 +952,6 @@ ul.nav-menu li:hover > ul,
 .nav-menu .current-menu-ancestor > a {
 	color: white;
 	background: #00468B;
-	font-style: italic;
 }
 .nav-menu .current_page_ancestor > ul{
 /* 	display: block !important; */
