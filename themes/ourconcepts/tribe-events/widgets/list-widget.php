@@ -23,16 +23,10 @@
  *
  */
 ?>
-<li class="agendaItem tribe-events-list-widget-events <?php tribe_events_event_classes()?>">
+<li class="agendaItem">
 	
-    <div style="border: 1px solid white">
-        <h4 class="entry-title summary">
+        <h4 class="entry-title">
 			<a href="<?php echo tribe_get_event_link(); ?>" rel="bookmark"><?php the_title(); ?></a>
-	</h4>	
-    </div>
-	<!-- Event Time -->
-	<div class="duration" style="border: 1px solid green">
+        </h4>
 		<?php echo tribe_events_event_schedule_details(); ?>
-	</div>
-	<!-- Event Title -->
 </li>
