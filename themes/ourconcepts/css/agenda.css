@@ -1,11 +1,14 @@
 #agenda
 {
-    margin-top:1000px;
     width:250px;
     height:300px;
     float:right;
     background-color:rgba(0, 70, 139, 0.5);
     color:#ffffff;
+    position: fixed;
+    top: 150px;
+    right: -220px;
+    z-index: 99999;
 }
 
 #agenda ol
@@ -45,21 +48,17 @@
 {
     font-size: x-large;
     margin: 0px;
-    float: left;
 }
 
 .agendaMaand
 {
-    font-size: xx-small;
-    margin: 0px;
-    float: left;
-    
+    font-size: small;
+    margin: -7px 0px 0px 3px;
 }
 
 .agendaTijd
 {
     text-align: center;
-    clear: both;
 }
 
 #agenda h4
@@ -67,4 +66,21 @@
     text-align: center;
     padding: 0px;
     margin: 0px;
+}
+
+.agendaLeftBox
+{
+    float: left;
+    width: 25%;
+}
+
+.agendaRightBox
+{
+    float: left;
+}
+
+.tribe-events-widget-link
+{
+    padding-top: 25px;
+    clear: both;
 }
