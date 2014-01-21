@@ -1,6 +1,6 @@
 #agenda
 {
-    margin-top:100px;
+    margin-top:1000px;
     width:250px;
     height:300px;
     float:right;
@@ -19,6 +19,9 @@
     width:250px;
     height:40px;
     float:left;
+    padding-top: 3px;
+    background: url("../images/agenda.png") no-repeat left center;
+    text-align: center;
 }
 
 .agendaItem
@@ -28,12 +31,40 @@
     margin: 0px;
 }
 
-.agendaItem a
+#agenda a, #agenda a:hover, #agenda a:visited
 {
     color: white;
 }
 
-.agendaItem a:hover
+#agenda a:hover
 {
-    color: white;
+    text-decoration: underline;
+}
+
+.agendaDag
+{
+    font-size: x-large;
+    margin: 0px;
+    float: left;
+}
+
+.agendaMaand
+{
+    font-size: xx-small;
+    margin: 0px;
+    float: left;
+    
+}
+
+.agendaTijd
+{
+    text-align: center;
+    clear: both;
+}
+
+#agenda h4
+{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }

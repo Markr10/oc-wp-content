@@ -24,9 +24,16 @@
  */
 ?>
 <li class="agendaItem">
-	
-        <h4 class="entry-title">
-			<a href="<?php echo tribe_get_event_link(); ?>" rel="bookmark"><?php the_title(); ?></a>
-        </h4>
-		<?php echo tribe_events_event_schedule_details(); ?>
+    <div class="agendaDag"><?php echo tribe_get_start_date(null, false, "d"); ?></div>
+    <div class="agendaMaand"><?php echo tribe_get_start_date(null, false, "M"); ?></div>
+    <h4 class="entry-title">
+        <a href="<?php echo tribe_get_event_link(); ?>" rel="bookmark"><?php the_title(); ?></a>
+    </h4>
+    <div class="agendaTijd">
+        <?php
+            echo tribe_get_start_date(null, false, "H:i");
+            echo " - ";
+            echo tribe_get_end_date(null, false, "H:i");
+        ?>
+    </div>
 </li>
