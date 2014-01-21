@@ -260,9 +260,9 @@ function twentythirteen_widgets_init() {
 		'name'          => __( 'Agenda Widget Area', 'ourconcepts' ),
 		'id'            => 'sidebar-agenda',
 		'description'   => __( 'Appears in the agenda area. Only meant for the Events List.', 'ourconcepts' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'before_widget' => '<aside id="agenda" class="%2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h3 class="widget-title">',
+		'before_title'  => '<h3 id="agendaHeader">',
 		'after_title'   => '</h3>',
 	) );
 }
