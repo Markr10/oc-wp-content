@@ -1213,7 +1213,7 @@ footer.entry-meta {
 .page-links a {
 	background: #e63f2a;
 	border: 1px solid #e63f2a;
-	color: #fff;
+	color: #00468B;
 }
 
 .format-gallery .entry-content .page-links a:hover,
@@ -1224,7 +1224,7 @@ footer.entry-meta {
 .format-quote .entry-content .page-links a:hover,
 .page-links a:hover {
 	background: #fff;
-	color: #e63f2a;
+	color: #00468B;
 }
 
 .format-status .entry-content .page-links > span,
@@ -1641,7 +1641,7 @@ footer.entry-meta {
 
 /*MAYBE REPLACE*/
 .format-status .entry-content a {
-	color: #eadaa6;
+	color: #141212;
 }
 
 .format-status .entry-meta a {
@@ -1804,7 +1804,7 @@ footer.entry-meta {
 .attachment .entry-meta a,
 .attachment .entry-meta .edit-link:before,
 .attachment .full-size-link:before {
-	color: #ca3c08;
+	color: #00468B;
 }
 
 .attachment .entry-content {
@@ -2313,7 +2313,7 @@ footer.entry-meta {
 
 /*MAYBE REPLACE*/
 .comment-reply-title small a:hover {
-	color: #ed331c;
+	color: #00468B;
 	text-decoration: none;
 }
 
@@ -2939,7 +2939,7 @@ footer.entry-meta {
     /*MAYBE REPLACE*/
 	.toggled-on .nav-menu li a:hover,
 	.toggled-on .nav-menu ul a:hover {
-/* 		//background-color: #02264b; */
+/* 		//background-color: #00468B; */
 /* 		color: #fff; */
 	}
 
