@@ -1,0 +1,25 @@
+# Copyright (C) 2014 INF2G
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Our Concepts 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/twentythirteen\n"
+"POT-Creation-Date: 2014-01-13 13:55:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-01-17 09:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+
+#: functions.php:260
+msgid "Agenda Widget Area"
+msgstr "Agenda widgetgebied"
+
+#: functions.php:262
+msgid "Appears in the agenda area. Only meant for the Events List."
+msgstr ""
+"Verschijnt in het agendagebied. Alleen bedoeld voor de Evenementenlijst."
