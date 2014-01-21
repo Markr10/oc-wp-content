@@ -23,12 +23,12 @@
  *
  */
 ?>
-<li class="agendaItem">
-    <div id="agendaLeftBox">
+<li>
+    <div class="agendaLeftBox">
         <div class="agendaDag"><?php echo tribe_get_start_date(null, false, "d"); ?></div>
         <div class="agendaMaand"><?php echo tribe_get_start_date(null, false, "M"); ?></div>
     </div>
-    <div id="agendaRightBox">
+    <div class="agendaRightBox">
         <h4 class="entry-title">
             <a href="<?php echo tribe_get_event_link(); ?>" rel="bookmark"><?php the_title(); ?></a>
         </h4>

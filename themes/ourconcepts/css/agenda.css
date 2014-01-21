@@ -1,13 +1,12 @@
 #agenda
 {
-    width:250px;
-    height:300px;
+    width:245px;
     float:right;
     background-color:rgba(0, 70, 139, 0.5);
     color:#ffffff;
     position: fixed;
     top: 150px;
-    right: -220px;
+    right: -215px;
     z-index: 99999;
 }
 
@@ -27,11 +26,12 @@
     text-align: center;
 }
 
-.agendaItem
+.tribe-events-list-widget ol li 
 {
     width:250px;
     text-align:left;
-    margin: 0px;
+    margin: 10px 0px 0px;
+    float: left;
 }
 
 #agenda a, #agenda a:hover, #agenda a:visited
@@ -71,12 +71,13 @@
 .agendaLeftBox
 {
     float: left;
-    width: 25%;
+    width: 5%;
 }
 
 .agendaRightBox
 {
     float: left;
+    width: 95%;
 }
 
 .tribe-events-widget-link

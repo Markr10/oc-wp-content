@@ -78,24 +78,4 @@
             isRTL: body.is( '.rtl' )
         } );
     }
-        
-    /**
-    * Moves the Agenda Widget Area.
-    */
-    if ( $.isFunction( $.fn.moveWidget ) ) {
-        $('#agenda').hover(
-            function()
-            {
-                $(this).stop().animate({
-                    width: 250
-                }, 500);
-            },
-            function()
-            {
-                $(this).stop().animate({
-                    width: 40
-                }, 500);
-            }
-            );
-    }
 } )( jQuery );
