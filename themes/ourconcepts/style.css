@@ -620,7 +620,7 @@ input[type="button"]:active,
 input[type="reset"]:active {
 	background: #00468B; /* Old browsers */
 	border: none;
-	border-top: 3px solid #b93207;
+	border-top: 3px solid #00468b;
 	padding: 10px 24px 11px;
 }
 
