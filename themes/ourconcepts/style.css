@@ -609,7 +609,10 @@ input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
+	background: #8968CD;
     border: none;
+	border-bottom: 3px solid #0053a5;
+	border-radius: 2px;
 	color: #FFFFFF;
 	outline: none;
 }
@@ -3227,6 +3230,7 @@ footer.entry-meta {
 		color: #333;
 	}
 }
+
 
 
 
