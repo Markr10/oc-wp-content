@@ -593,7 +593,7 @@ input[type="button"],
 input[type="reset"] {
 	background: #5D478B;
 	border: none;
-	border-bottom: 3px solid #00468b;
+	border-bottom: 3px solid #00468B;
 	border-radius: 2px;
 	color: #FFFFFF;
 	display: inline-block;
@@ -609,7 +609,10 @@ input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
-	background: #5D478B;
+	background: #8968CD;
+    border: none;
+	border-bottom: 3px solid #0053a5;
+	border-radius: 2px;
 	color: #FFFFFF;
 	outline: none;
 }
@@ -618,9 +621,9 @@ button:active,
 input[type="submit"]:active,
 input[type="button"]:active,
 input[type="reset"]:active {
-	background: #00468B; /* Old browsers */
+	background: #5D478B;
 	border: none;
-	border-top: 3px solid #b93207;
+	border-top: 3px solid #0053a5;
 	padding: 10px 24px 11px;
 }
 
@@ -3227,6 +3230,7 @@ footer.entry-meta {
 		color: #333;
 	}
 }
+
 
 
 
