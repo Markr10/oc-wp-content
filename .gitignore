@@ -15,3 +15,6 @@ backups/
 sitemap.xml
 sitemap.xml.gz
 *.log
+
+# Other
+.tmp
