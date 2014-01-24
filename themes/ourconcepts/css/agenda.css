@@ -21,8 +21,8 @@
     width:250px;
     height:40px;
     float:left;
-    padding-top: 3px;
     background: url("../images/agenda.png") no-repeat left center;
+    background-position: 5px 30%;
     text-align: center;
 }
 
@@ -71,7 +71,8 @@
 .agendaLeftBox
 {
     float: left;
-    width: 5%;
+    width: 10px;
+    margin-left: 2px;
 }
 
 .agendaRightBox
@@ -84,4 +85,9 @@
 {
     padding-top: 25px;
     clear: both;
+}
+
+#agenda>p
+{
+    text-align: center;
 }
