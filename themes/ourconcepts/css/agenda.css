@@ -72,13 +72,14 @@
 {
     float: left;
     width: 10px;
-    margin-left: 2px;
+    margin: 0px 23px 0px 2px;
 }
 
 .agendaRightBox
 {
     float: left;
-    width: 95%;
+    width: 203px;
+    margin-right: 7px;
 }
 
 .tribe-events-widget-link
