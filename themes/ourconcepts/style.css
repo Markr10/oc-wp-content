@@ -570,7 +570,7 @@ hr {
 button,
 input,
 textarea {
-	border: 2px solid #d4d0ba;
+	border: 2px solid rgba(171, 182, 192, 0.7);
 	font-family: inherit;
 	padding: 5px;
 }
@@ -582,7 +582,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-	border: 2px solid #c3c0ab;
+	border: 2px solid #abb6c0;
 	outline: 0;
 }
 
@@ -593,8 +593,6 @@ input[type="button"],
 input[type="reset"] {
 	background: #5D478B;
 	border: none;
-	border-bottom: 3px solid #00468B;
-	border-radius: 2px;
 	color: #FFFFFF;
 	display: inline-block;
 	padding: 11px 24px 10px;
@@ -610,9 +608,7 @@ input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
 	background: #8968CD;
-    border: none;
-	border-bottom: 3px solid #0053a5;
-	border-radius: 2px;
+        border: none;
 	color: #FFFFFF;
 	outline: none;
 }
@@ -623,7 +619,6 @@ input[type="button"]:active,
 input[type="reset"]:active {
 	background: #5D478B;
 	border: none;
-	border-top: 3px solid #0053a5;
 	padding: 10px 24px 11px;
 }
 
@@ -2057,9 +2052,7 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 
-.page-header {
-	background-color: #e8e5ce;
-}
+/*.page-header*/
 
 .page-title {
 	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
