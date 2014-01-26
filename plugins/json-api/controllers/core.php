@@ -120,7 +120,7 @@ class JSON_API_Core_Controller {
         $json_api->introspector->attach_child_posts($posts[0]);
       }
       return array(
-        'page' => $posts[0]
+        'page' => $posts[0],
       );
     } else {
       $json_api->error("Not found.");
@@ -238,6 +238,49 @@ class JSON_API_Core_Controller {
       'authors' => array_values($authors)
     );
   }
+  
+//**** ADDED ***/
+  public function get_menu_structure() {
+    global $json_api;
+    // Menu Slug.
+    $menu_name = "menu";
+    if ( ($menu = wp_get_nav_menu_object( $menu_name ) ) && ( isset($menu) ) ) {
+        $menu_items = wp_get_nav_menu_items($menu->term_id);
+        $menu_list = array();
+        foreach (  $menu_items as $key => $menu_item ) {
+        	$menu_item->meta = get_post_custom((int)$menu_item->object_id);
+            if($menu_item->post_parent != 0){
+                // Search for the parent.
+                $parent_key = false;
+                foreach ($menu_list as $key => $val) {
+                    if ($val->object_id == $menu_item->post_parent) {
+                        $parent_key = $key;
+                    
+                    }  
+                }
+                if($parent_key !== false){
+                    if(!isset($menu_list[$parent_key]->children)) {
+                        $menu_list[$parent_key]->children = array();
+                    }
+                    $menu_list[$parent_key]->children[] = $menu_item;
+                }else{
+                    // Add as normal to the list.
+                    $menu_list[] = $menu_item;
+                } 
+            }else{
+                $menu_list[] = $menu_item;
+            }  
+			
+        }
+    } else {
+        $menu_list = '<ul><li>Menu "' . $menu_name . '" not defined.</li></ul>';
+    }
+    
+    return array(
+      'pages' => $menu_list,
+    );
+ }
+//**** ADDED ***/
   
   public function get_page_index() {
     global $json_api;
